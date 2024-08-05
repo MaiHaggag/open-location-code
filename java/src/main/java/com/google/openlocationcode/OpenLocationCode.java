@@ -13,7 +13,8 @@
 // limitations under the License.
 
 package com.google.openlocationcode;
-
+OpenLocationCode olc = new OpenLocationCode("3MXJ+74 Nuweiba");
+Log.d(TAG, "Lat = " + olc.decode().getCenterLatitude() + "  Lng = " + olc.decode().getCenterLongitude());
 import java.util.Objects;
 
 /**
